@@ -25,8 +25,8 @@ router.get('/api/products/:productId',(req,res)=>{
 
 
 // Post request handle
-router.post('/api/products',apiKey,(req,res,next)=>{
-
+// router.post('/api/products',apiKey,(req,res,next)=>{
+router.post('/api/products',(req,res,next)=>{
     // try{
     //     console.log(city);
     // }catch(err){
